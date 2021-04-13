@@ -6,7 +6,7 @@ export default function Header({ transparent }) {
     <header
       className={transparent ? styles.headerTransparent : styles.headerOpaque}
     >
-      <p className={styles.heading}>Sienna</p>
+      <h1 className={styles.heading}>Sienna</h1>
       <nav className={styles.nav}>
         <HeaderLink href="/">
           <a>Home</a>

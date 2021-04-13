@@ -21,7 +21,7 @@ export default function Home() {
           hideInterface={false}
         />
         <div className={styles.taglineContainer}>
-          <h2 className={styles.tagline}>
+          <p className={styles.tagline}>
             Sienna are
             <br />
             Developers
@@ -29,7 +29,7 @@ export default function Home() {
             for Social
             <br />
             Good.
-          </h2>
+          </p>
         </div>
       </Layout>
   );
