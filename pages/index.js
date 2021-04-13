@@ -8,7 +8,6 @@ export default function Home() {
   const [colour, setColour] = React.useState("#001AFF");
 
   return (
-    <>
       <Layout page={"Home"}>
         <CanvasDraw
           className={styles.canvas}
@@ -33,6 +32,5 @@ export default function Home() {
           </h2>
         </div>
       </Layout>
-    </>
   );
 }

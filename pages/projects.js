@@ -3,10 +3,8 @@ import Layout from "../components/layout";
 
 export default function Projects() {
   return (
-    <>
-      <Layout page={"Home"}>
+      <Layout page={"Projects"}>
         <h1>Projects</h1>
       </Layout>
-    </>
   );
 }
