@@ -1,7 +1,7 @@
 import styles from "../styles/header.module.css";
 import HeaderLink from "../components/headerLink";
 
-export default function Header(props) {
+export default function Header() {
   return (
     <header className={styles.header}>
       <h1 className={styles.heading}>Sienna</h1>
