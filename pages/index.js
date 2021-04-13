@@ -21,15 +21,17 @@ export default function Home() {
           brushColor={colour}
           hideInterface={false}
         />
-        <h2 className={styles.tagline}>
-          Sienna are
-          <br />
-          Developers
-          <br />
-          for Social
-          <br />
-          Good.
-        </h2>
+        <div className={styles.taglineContainer}>
+          <h2 className={styles.tagline}>
+            Sienna are
+            <br />
+            Developers
+            <br />
+            for Social
+            <br />
+            Good.
+          </h2>
+        </div>
       </Layout>
     </>
   );

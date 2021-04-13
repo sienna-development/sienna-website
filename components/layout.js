@@ -5,7 +5,7 @@ export default function Layout({ children, page }) {
   return (
     <>
       <Head>
-          <title>Sienna | {page}</title>
+        <title>Sienna | {page}</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
@@ -15,9 +15,9 @@ export default function Layout({ children, page }) {
         <meta name="og:title" content="Sienna" />
         <meta name="twitter:card" content="summary_large_image" />
         <link
-      href="https://fonts.googleapis.com/css2?family=Karla&family=Londrina+Sketch&display=swap"
-      rel="stylesheet"
-    />
+          href="https://fonts.googleapis.com/css2?family=Karla&family=Londrina+Sketch&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Header />
       <main>{children}</main>
