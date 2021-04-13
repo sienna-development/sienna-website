@@ -18,6 +18,7 @@ export default function Layout({ children, page }) {
           href="https://fonts.googleapis.com/css2?family=Karla&family=Londrina+Sketch&display=swap"
           rel="stylesheet"
         />
+       
       </Head>
       <Header />
       <main>{children}</main>
