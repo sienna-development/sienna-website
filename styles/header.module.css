@@ -1,0 +1,51 @@
+.header {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.heading {
+    font-family: 'Londrina Sketch', cursive;
+    color: #882D17;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+
+.navItem {
+    font-family: 'Karla', sans-serif;
+    color: #272F29;
+    font-size: 1rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navItemSelected {
+    list-style-type: none;
+    border-bottom: 2px solid #882D17;
+    font-family: 'Karla', sans-serif;
+    color: #272F29;
+    font-size: 1rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
