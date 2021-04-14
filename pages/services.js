@@ -20,9 +20,9 @@ export default function Services() {
       <div className={styles.bodyContainer}>
             <p className={styles.bodyText}>
                   For those who think a tech solution may be what they need but aren’t sure how to get started. 
-                  Through workshops, and user/ organisation research we will help you explore your service or product and make sure that the problem you are approaching is the right one.  
+                  Through workshops, and user research we help you explore your service or product and make sure that the problem you are approaching is the right one.  
                    <article className={styles.outputs}>
-                     Outputs: A defined and problem area supported by user and organisation research insights, ready to be designed and validated by prototype.
+                     Outputs: a defined and problem area supported by user and organisation research insights, ready to be designed and validated by prototype.
                    </article>
             </p>
                 <aside className={styles.details}>
@@ -37,11 +37,10 @@ export default function Services() {
 </h2>
       <div className={styles.bodyContainer}>
             <p className={styles.bodyText}>
-                  When you know what you need to build, you want to do it right. Through a series of workshops we will help to design your product or service with a user-centric focus. 
-                  Validation with real users through usability testing ensures that your solution is accessible and works for the real users of your application. 
-                  Iteration of prototypes based on user feedback ensures that the right features are incuded.
+                  When you know what you need to build, you want to do it right. Through a series of workshops we help to design your product or service with a user-centric focus. 
+                  Validation through usability testing ensures that your solution is accessible and works for the real users of your application.
                   <article className={styles.outputs}>
-                    Outputs: Ranging from low-fidelity wireframes to a complete design or navigable prototype of your solution. 
+                    Outputs: ranging from low-fidelity wireframes to a complete design or navigable prototype of your solution. 
                     Designs are supported by insights and recommendations based on usability testing, and user stories that can be taken through to development and delivery.
                   </article>
             </p>
@@ -56,11 +55,11 @@ export default function Services() {
 </h2>
       <div className={styles.bodyContainer}>
             <p className={styles.bodyText}>
-                  Working with your team we will develop an interactive prototype, MVP or fully featured app or website using secure and up-to-date web technologies. 
-                  Ongoing support and maintenance of your app can be arranged according to your requirements.
+                  Working with your team we develop an interactive prototype, MVP or fully featured app or website using secure and up-to-date web technologies. 
+                  We can support you in the definition of a solution from conception, as well as, the production of a pre-conceptualised idea.
                   <article className={styles.outputs}>
-                        Outputs: Ranging from low-fidelity wireframes to a complete design or navigable prototype of your solution. 
-                        Designs are supported by insights and recommendations based on usability testing, and user stories that can be taken through to development and delivery.
+                        Outputs: a range of delivery formats whether that be a prototype/MVP for proof of concept or a fully featured product for launch. 
+                        Ongoing support and maintenance of your app can be arranged according to your requirements.
                   </article>
             </p>
                   <aside className={styles.details}>
