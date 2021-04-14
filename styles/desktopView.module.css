@@ -1,0 +1,7 @@
+.desktopContainer {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}

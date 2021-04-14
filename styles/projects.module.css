@@ -1,0 +1,17 @@
+.projectContainer {
+margin: 10vw 5vw;
+display:flex;
+justify-content: center;
+align-items: flex-start;
+}
+
+.imageColumn {
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textColumn {
+    width: 30vw;
+    padding: 0 0 0 20px;
+}
