@@ -1,5 +1,6 @@
 import Layout from "../components/layout";
 import styles from "../styles/projects.module.css";
+import NavbarJags from "../components/navbarJags";
 import DesktopView from "../components/desktopView";
 import MobileView from "../components/mobileView";
 import FourSquareImages from "../components/fourSquareImages";
@@ -7,6 +8,7 @@ import FourSquareImages from "../components/fourSquareImages";
 export default function Projects() {
   return (
     <Layout page={"Projects"}>
+      <NavbarJags />
       <section className={styles.projectContainer}>
         <div className={styles.imageColumn}>
           <FourSquareImages
