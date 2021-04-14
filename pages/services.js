@@ -1,8 +1,6 @@
 import Layout from "../components/layout";
 import styles from "../styles/services.module.css";
 
-
-
 export default function Services() {
   return (
       <Layout page={"Services"}>
@@ -15,7 +13,7 @@ export default function Services() {
 
           
  <h2 className={styles.serviceTitle}>
-      Discover & Define
+      Discover and Define
 </h2>
       <div className={styles.bodyContainer}>
             <p className={styles.bodyText}>
@@ -33,7 +31,7 @@ export default function Services() {
        
        
 <h2 className={styles.serviceTitle}>
-      Design & Validate
+      Design and Validate
 </h2>
       <div className={styles.bodyContainer}>
             <p className={styles.bodyText}>
@@ -48,10 +46,10 @@ export default function Services() {
                   Time: 2-8 weeks
                   Cost: £3k - £12k
                 </aside>
-        </div>
+      </div>
 
 <h2 className={styles.serviceTitle}>
-      Develop & Support
+      Develop and Support
 </h2>
       <div className={styles.bodyContainer}>
             <p className={styles.bodyText}>
@@ -66,8 +64,8 @@ export default function Services() {
                         Time: 2-12 weeks
                         Cost: £3k - £20k
                   </aside>
-        </div>
-        <img src="/images/green-circle.svg" alt="cirle" className={styles.circle}/>
+      </div>
+        <img src="/images/green-circle.svg" alt="circle" className={styles.circle}/>
         </div>
       </Layout>
   );
