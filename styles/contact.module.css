@@ -1,0 +1,6 @@
+.waves {
+    bottom: -60rem;
+    position: fixed;
+    width: 100%;
+    overflow: hidden; 
+}
