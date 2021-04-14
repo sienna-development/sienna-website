@@ -1,6 +1,6 @@
 .headerTransparent {
     width: 100vw;
-    height: 60px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,12 +10,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: 1;
 }
 
 .headerOpaque {
     width: 100vw;
-    height: 60px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +25,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: 1;
 }
 
 .nav {

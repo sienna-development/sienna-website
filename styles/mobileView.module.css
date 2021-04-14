@@ -1,0 +1,16 @@
+.mobileContainer {
+  width: 173px;
+  height: 334px;
+  background-image: url("/images/mobile-phone.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.screen {
+  position: relative;
+  z-index: 1;
+}
