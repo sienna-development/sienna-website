@@ -1,5 +1,5 @@
 .content {
-    margin: 5rem;
+    margin: 4rem 8rem;
     position: fixed;
 }
 
@@ -13,13 +13,17 @@
 }
 
 .bodyText {
-    width: 50rem;
+    width: 45rem;
 }
 
 .details {
-    width: 9rem;
+    width: 7rem;
     margin-left: 4.5rem;
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
+
+.outputs {
     margin-top: 0.5rem;
 }
 
