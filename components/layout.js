@@ -2,6 +2,9 @@ import Head from "next/head";
 import Header from "./header";
 
 export default function Layout({ children, page }) {
+
+  const isHome = page === "Home" ? true : false;
+
   return (
     <>
       <Head>
@@ -19,7 +22,7 @@ export default function Layout({ children, page }) {
           rel="stylesheet"
         />
       </Head>
-      <Header />
+      <Header transparent={isHome} />
       <main>{children}</main>
     </>
   );
