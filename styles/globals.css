@@ -2,9 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Karla', sans-serif;
-    color: #272F29;
-    font-size: 12px;
+  font-family: "Karla", sans-serif;
+  color: #272F29;
 }
 
 a {
@@ -12,11 +11,16 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 12px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
 * {
   box-sizing: border-box;
 }
 
-h2 {
-  font-weight: bold;
-  margin: 0;
-}

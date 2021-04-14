@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 export default function Custom404() {
   return (
     <Layout page={"404"}>
-      <h1>404 - Page Not Found</h1>
+      <p>404 - Page Not Found</p>
     </Layout>
   );
 }

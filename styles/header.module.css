@@ -1,4 +1,4 @@
-.header {
+.headerTransparent {
     width: 100vw;
     height: 60px;
     display: flex;
@@ -10,7 +10,22 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: 1;
+}
+
+.headerOpaque {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .nav {

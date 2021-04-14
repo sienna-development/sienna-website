@@ -67,9 +67,9 @@ export default function Projects() {
       </section>
       <section className={styles.projectContainer}>
         <div className={styles.imageColumn}>
-          <MobileView 
-          src={"/images/cdt-resourcecentre.png"}
-          alt={"CDT Resource Centre app screenshot"}
+          <MobileView
+            src={"/images/cdt-resourcecentre.png"}
+            alt={"CDT Resource Centre app screenshot"}
           />
         </div>
         <div className={styles.textColumn}>
