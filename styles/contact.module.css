@@ -2,5 +2,36 @@
     bottom: -60rem;
     position: fixed;
     width: 100%;
-    overflow: hidden; 
+    z-index: 0;
 }
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    top: 5rem;
+    left: 10rem;
+    z-index: 2;
+    position: fixed;
+} 
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactTitle {
+    font-size: 22px;
+}
+
+.email {
+    margin-left: 30rem;
+}
+
+.images {
+margin-top: 2rem;
+height: 12rem;
+}
+
+.jcImg {
+margin-left: 4rem;
+}
+
