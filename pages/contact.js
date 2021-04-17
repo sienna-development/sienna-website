@@ -21,8 +21,15 @@ export default function Contact() {
               <img src="/images/bs-profile.png" />
               <img src="/images/jc-profile.png" className={styles.jcImg}/>
             </div>
-</div>
+            </div>
+
+       
+      
         <img src="/images/waves.svg" className={styles.waves}/>
+    
+     
+
+
       </Layout>
   );
 }
