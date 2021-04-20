@@ -1,0 +1,46 @@
+.waves {
+    bottom: -70rem;
+    width: 100%;
+    animation: Tidal 20s linear infinite;
+    position: absolute;
+    z-index: -4;
+  }
+  
+  @keyframes Tidal {
+    0%, 100% {
+      bottom: -60rem;
+    }
+    50% {
+      bottom: -70rem;
+    }
+  }
+
+.info {
+  display: flex;
+  flex-direction: row;
+  top: 8rem;
+  left: 10rem;
+  z-index: -1;
+  position: fixed;
+}
+
+.contactTitle {
+  font-size: 25px;
+}
+.contactDeets {
+  font-size: 16px;
+}
+
+.email {
+  margin-left: 4rem;
+}
+
+.images {
+  margin-left: 10rem;
+  margin-top: -2rem;
+}
+
+.jcImg {
+  margin-left: 3rem;
+} 
+
