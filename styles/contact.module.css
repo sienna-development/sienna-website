@@ -1,31 +1,43 @@
 
 .waves {
-    bottom: -70rem;;
-    position: fixed;
+    bottom: -70rem;
     width: 100%;
+    animation: Tidal 30s linear infinite;
+    position: absolute;
+   z-index: -4;
+  }
+  
+  @keyframes Tidal {
+    0%, 100% {
+      bottom: -50rem;
+    }
+    50% {
+      bottom: -80rem;
+    }
+  }
+
+/*
     animation: shake 5s cubic-bezier(.36,.07,.19,.97) both;
     animation-iteration-count: infinite;
     transform: translate3d(0, 0, 0);
-
-
   }
   @keyframes shake {
     10%, 90% {
-      transform: translate3d(-5x, 0, 0);
+      transform: translate3d(-10x, 0, 0);
     }
     
     20%, 80% {
-      transform: translate3d(4px, 0, 0);
+      transform: translate3d(-8px, 0, 0);
     }
   
     30%, 50%, 70% {
-      transform: translate3d(-4px, 0, 0);
+      transform: translate3d(0, 0, -10px );
     }
   
     40%, 60% {
-      transform: translate3d(4px, 0, 0);
+      transform: translate3d(-8px, 0, 0);
     }
-  }
+  } */
 
 
 
@@ -36,9 +48,8 @@
     left: 10rem;
     z-index: -1;
     position: fixed;
-
-
 } 
+
 .info {
     display: flex;
     flex-direction: row;

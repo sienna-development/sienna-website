@@ -23,10 +23,8 @@ export default function Contact() {
             </div>
             </div>
 
-       
       
         <img src="/images/waves.svg" className={styles.waves}/>
-    
      
 
 
