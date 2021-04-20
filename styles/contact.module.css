@@ -1,18 +1,17 @@
-
 .waves {
     bottom: -70rem;
     width: 100%;
-    animation: Tidal 30s linear infinite;
+    animation: Tidal 20s linear infinite;
     position: absolute;
-   z-index: -4;
+    z-index: -4;
   }
   
   @keyframes Tidal {
     0%, 100% {
-      bottom: -50rem;
+      bottom: -60rem;
     }
     50% {
-      bottom: -80rem;
+      bottom: -70rem;
     }
   }
 
@@ -39,35 +38,32 @@
     }
   } */
 
-
-
-.contactContainer {
-    display: flex;
-    flex-direction: column;
-    top: 5rem;
-    left: 10rem;
-    z-index: -1;
-    position: fixed;
-} 
-
 .info {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  top: 8rem;
+  left: 10rem;
+  z-index: -1;
+  position: fixed;
 }
 
 .contactTitle {
-    font-size: 22px;
+  font-size: 25px;
+}
+.contactDeets {
+  font-size: 16px;
 }
 
 .email {
-    margin-left: 30rem;
+  margin-left: 4rem;
 }
 
 .images {
-margin-top: 1.5rem;
-height: 11rem;
+  margin-left: 10rem;
+  margin-top: -2rem;
 }
 
 .jcImg {
-margin-left: 4rem;
+  margin-left: 3rem;
 } 
+
