@@ -4,4 +4,5 @@
   flex-direction: column;
   position: relative;
   justify-content: center;
+  box-shadow: 5px 12px 10px #D2D2D2;
 }
