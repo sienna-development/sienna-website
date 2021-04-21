@@ -42,10 +42,10 @@ export default function Projects() {
             imageOneAlt={"Miro board screenshot DLP"}
             imageTwoSrc={"/images/dlp-mobile-proto.png"}
             imageTwoAlt={"Mobile prototype screenshot"}
-            imageThreeSrc={"/images/dlp-problem-statement.png"}
-            imageThreeAlt={"Miro problem statements"}
-            imageFourSrc={"/images/dlp-projmgmt.png"}
-            imageFourAlt={"Project Management Curriculum"}
+            imageThreeSrc={"/images/dlp-projmgmt.png"}
+            imageThreeAlt={"Project Management Curriculum"}
+            imageFourSrc={"/images/dlp-problem-statement.png"}
+            imageFourAlt={"Miro problem statements"}
           />
         </div>
         <div className={styles.textColumn}>
@@ -114,6 +114,39 @@ export default function Projects() {
             are accessible to participants.
           </p>
           <p>Made with ReactJS.</p>
+        </div>
+      </section>
+      <section className={styles.projectContainer}>
+        <div className={styles.imageColumn}>
+          <MobileView
+            src={"/images/mbl-youthcoin.png"}
+            alt={"MBL Youth Coin App"}
+          />
+           <MobileView
+            src={"/images/mbl-youthvote.png"}
+            alt={"MBL Youth Vote App"}
+          />
+           <MobileView
+            src={"/images/mbl-dashboard.png"}
+            alt={"MBL Service Recomendation App"}
+          />
+        </div>
+        <div className={styles.textColumn}>
+          <h2>My Best Life</h2>
+          <p>
+            A range of MVP apps prototyped in collaboration with three youth charities
+            as part of the second phase of a definition programme with New Philanthropy Capital. 
+          </p>
+          <p>
+            The three apps explored different methods of engaging with young people, 
+            especially those who live in digital poverty or are disadvantaged by living in remote locations. 
+            We conducted usability testing with various groups of young people to inform the next phase of the programme.
+            </p>
+            <p>
+            Youth Coin and Youth Vote focuses on involving young people in the decision making processes. 
+            The service recommender app was a space that personalised the search for services available to young people.
+          </p>
+          <p>Made with Miro and Figma.</p>
         </div>
       </section>
     </Layout>
