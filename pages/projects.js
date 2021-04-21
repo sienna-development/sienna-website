@@ -59,7 +59,7 @@ export default function Projects() {
           <p>
             Made with Miro, GitHub and Google docs.
           </p>
-          <p>This project was part of a Catalyst programme.</p>
+          <p>This project was part of a CAST/Catalyst programme.</p>
         </div>
       </section>
       <section className={styles.projectContainer}>
@@ -76,6 +76,7 @@ export default function Projects() {
             ‘cybersafety’ against a series of topics.
           </p>
           <p>Made with Gatsby, Firebase and Netlify CMS.</p>
+          <p>This project was built for the Irish organisation, CyberSafeKids.</p>
         </div>
       </section>
       <section className={styles.projectContainer}>
@@ -92,6 +93,7 @@ export default function Projects() {
             at home.{" "}
           </p>
           <p>Made with ReactJS</p>
+          <p>This project was built for the Irish organisation, CyberSafeKids.</p>
         </div>
       </section>
       <section className={styles.projectContainer}>
@@ -135,16 +137,15 @@ export default function Projects() {
           <h2>My Best Life</h2>
           <p>
             A range of MVP apps prototyped in collaboration with three youth charities
-            as part of the second phase of a definition programme with New Philanthropy Capital. 
+            as part a definition programme with New Philanthropy Capital. 
           </p>
           <p>
-            The three apps explored different methods of engaging with young people, 
-            especially those who live in digital poverty or are disadvantaged by living in remote locations. 
-            We conducted usability testing with various groups of young people to inform the next phase of the programme.
+            The 3 apps provide different methods of engagement with young people.
+            We conducted usability testing with various groups of yp to inform the next phase of the programme.
             </p>
             <p>
-            Youth Coin and Youth Vote focuses on involving young people in the decision making processes. 
-            The service recommender app was a space that personalised the search for services available to young people.
+            Youth Coin and Youth Vote focus on involving yp in the decision making processes. 
+            The service recommender app is a space that personalises the search for services available.
           </p>
           <p>Made with Miro and Figma.</p>
         </div>
