@@ -29,3 +29,18 @@
   padding: 0;
   font-weight: 100;
 }
+
+@media only screen and (max-width: 750px) {
+  .tagline {
+    font-family: "Londrina Sketch", cursive;
+  text-transform: uppercase;
+  color: white;
+  font-size: 4rem;
+  text-align: left;
+  line-height: 3rem;
+  pointer-events: none;
+  border: 0;
+  padding: 0;
+  font-weight: 100;
+  }
+}
