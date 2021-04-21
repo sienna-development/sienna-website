@@ -13,7 +13,7 @@ export default function Projects() {
         <div className={styles.imageColumn}>
           <FourSquareImages
             imageOneSrc={"/images/jlu-miro.png"}
-            imageOneAlt={"Miro board screenshot"}
+            imageOneAlt={"Miro board screenshot JLU"}
             imageTwoSrc={"/images/jlu-figma.png"}
             imageTwoAlt={"Figma prototype screenshot"}
             imageThreeSrc={"/images/jlu-thinkific.png"}
@@ -33,6 +33,33 @@ export default function Projects() {
             Made with Miro, Figma, HackMD, Thinkific, LearnDash and Google docs.
           </p>
           <p>This project was part of the Catalyst Dev2A programme.</p>
+        </div>
+      </section>
+      <section className={styles.projectContainer}>
+        <div className={styles.imageColumn}>
+          <FourSquareImages
+            imageOneSrc={"/images/dlp-miro-overview.png"}
+            imageOneAlt={"Miro board screenshot DLP"}
+            imageTwoSrc={"/images/dlp-mobile-proto.png"}
+            imageTwoAlt={"Mobile prototype screenshot"}
+            imageThreeSrc={"/images/dlp-problem-statement.png"}
+            imageThreeAlt={"Miro problem statements"}
+            imageFourSrc={"/images/dlp-projmgmt.png"}
+            imageFourAlt={"Project Management Curriculum"}
+          />
+        </div>
+        <div className={styles.textColumn}>
+          <h2>Discovery Learning Programme</h2>
+          <p>
+            A discovery programme with 9 charity groups to 
+            train staff in digital service design and prepare for funding applications. 
+            Design sprint workshop facilitation over six weeks, 
+            with tailored coaching calls and product management documentation.
+          </p>
+          <p>
+            Made with Miro, GitHub and Google docs.
+          </p>
+          <p>This project was part of a Catalyst programme.</p>
         </div>
       </section>
       <section className={styles.projectContainer}>
