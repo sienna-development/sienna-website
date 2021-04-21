@@ -55,6 +55,14 @@
     cursor: pointer;
 }
 
+.navItem:hover {
+    font-family: 'Karla', sans-serif;
+    color: #882D17;
+    font-size: 1rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
 .navItemSelected {
     list-style-type: none;
     border-bottom: 2px solid #882D17;
@@ -64,3 +72,4 @@
     margin-right: 20px;
     cursor: pointer;
 }
+
