@@ -1,0 +1,38 @@
+.mobileNavModal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.modalHeader {
+  width: 100vw;
+  height: 75px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.modalBody {
+  width: 100vw;
+  height: 90vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leaveModalIcon {
+  width: auto;
+  height: 3vh;
+  margin-right: 20px;
+}
