@@ -20,6 +20,13 @@ h2 {
   font-size: 18px;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
 }
