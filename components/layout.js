@@ -2,8 +2,10 @@ import Head from "next/head";
 import Header from "./header";
 
 export default function Layout({ children, page }) {
-
-  const isHome = page === "Home" ? true : false;
+  const opaqueHeadersPages = ["Projects", "Services"];
+  const needsTransparentHeader = !opaqueHeadersPages.includes(page)
+    ? true
+    : false;
 
   return (
     <>
@@ -21,9 +23,8 @@ export default function Layout({ children, page }) {
           href="https://fonts.googleapis.com/css2?family=Karla&family=Londrina+Sketch&display=swap"
           rel="stylesheet"
         />
-       
       </Head>
-      <Header transparent={isHome} />
+      <Header transparent={needsTransparentHeader} />
       <main>{children}</main>
     </>
   );
