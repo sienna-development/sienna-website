@@ -44,3 +44,32 @@
   margin-left: 3rem;
 } 
 
+@media only screen and (max-width: 600px) {
+  .info {
+    left: 1rem;
+    flex-direction: column;
+    top: 5rem;
+  }
+
+  @keyframes Tidal {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: -30rem;
+    }
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 10rem;
+  }
+  .jcImg {
+    margin-left: 1.5rem;
+  } 
+  .email, .who {
+    margin-left: 0.5rem;
+  }
+}
