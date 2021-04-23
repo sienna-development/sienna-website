@@ -119,19 +119,24 @@ export default function Projects() {
         </div>
       </section>
       <section className={styles.projectContainer}>
-        <div className={styles.imageColumn}>
-          <MobileView
-            src={"/images/mbl-youthcoin.png"}
-            alt={"MBL Youth Coin App"}
-          />
-           <MobileView
-            src={"/images/mbl-youthvote.png"}
-            alt={"MBL Youth Vote App"}
-          />
-           <MobileView
+        <div className={styles.imageColumn}>   
+        <div className={styles.mob}></div>    
+        <MobileView
             src={"/images/mbl-dashboard.png"}
             alt={"MBL Service Recomendation App"}
           />
+          <div className={styles.mob}>
+           <MobileView
+            src={"/images/mbl-youthvote.png"}
+            alt={"MBL Youth Vote App"}
+          />    
+          </div>
+          <div className={styles.mob}>
+             <MobileView
+            src={"/images/mbl-youthcoin.png"}
+            alt={"MBL Youth Coin App"}
+          />
+          </div>
         </div>
         <div className={styles.textColumn}>
           <h2>My Best Life</h2>
