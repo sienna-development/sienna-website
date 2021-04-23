@@ -32,7 +32,7 @@
 
 @media only screen and (max-width: 750px) {
   .tagline {
-    font-family: "Londrina Sketch", cursive;
+  font-family: "Londrina Sketch", cursive;
   text-transform: uppercase;
   color: white;
   font-size: 4rem;

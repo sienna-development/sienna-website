@@ -18,7 +18,7 @@ export default function FourSquareImages({
           <Image
             src={imageOneSrc}
             width={336}
-            height={156}
+            height={160}
             layout="responsive"
             alt={imageOneAlt}
           />
@@ -27,7 +27,7 @@ export default function FourSquareImages({
           <Image
             src={imageTwoSrc}
             width={336}
-            height={156}
+            height={160}
             layout="responsive"
             alt={imageTwoAlt}
           />
@@ -38,7 +38,7 @@ export default function FourSquareImages({
           <Image
             src={imageThreeSrc}
             width={336}
-            height={156}
+            height={160}
             layout="responsive"
             alt={imageThreeAlt}
           />
@@ -47,7 +47,7 @@ export default function FourSquareImages({
           <Image
             src={imageFourSrc}
             width={336}
-            height={156}
+            height={160}
             layout="responsive"
             alt={imageFourAlt}
           />

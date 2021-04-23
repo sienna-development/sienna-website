@@ -21,6 +21,9 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .projPage {
+        margin: 8rem;
+    }
     .projectContainer {
         flex-direction: column;
         align-items: center;
@@ -31,8 +34,7 @@
         text-align: justify; 
     }
     .imageColumn {
-        width: 80vw;
-        padding: 4rem 0 0 0;
+        width: 90vw;
         justify-content: center;
     }
   }

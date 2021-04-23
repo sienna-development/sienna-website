@@ -18,12 +18,12 @@
 
 @media only screen and (max-width: 600px) {
     .imageContainer {
-        width: 80vw;
+        width: 90vw;
     }
     .row {
-        width: 80vw;
+        width: 90vw;
     }
     .cell {
-        width: 40vw;
+        width: 45vw;
     }
   }

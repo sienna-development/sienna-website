@@ -9,6 +9,7 @@ export default function Projects() {
   return (
     <Layout page={"Projects"}>
       <NavbarJags />
+      <div  className={styles.projPage}>
       <section className={styles.projectContainer}>
         <div className={styles.imageColumn}>
           <FourSquareImages
@@ -155,6 +156,7 @@ export default function Projects() {
           <p>Made with Miro and Figma.</p>
         </div>
       </section>
+      </div>
     </Layout>
   );
 }
