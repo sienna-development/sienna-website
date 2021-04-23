@@ -23,9 +23,9 @@ export default function Services() {
                      Outputs: a defined and problem area supported by user and organisation research insights, ready to be designed and validated by prototype.
                    </article>
             </p>
-                <aside className={styles.details}>
-                  Time: 2-4 weeks
-                  Cost: £3k - £6k
+                <aside className={styles.detailContainer}>
+                  <p className={styles.details}>Time: 2-4 weeks</p>
+                  <p className={styles.details}>Cost: £3k - £6k</p>
                 </aside>
       </div>
        
@@ -42,9 +42,9 @@ export default function Services() {
                     Designs are supported by insights and recommendations based on usability testing, and user stories that can be taken through to development and delivery.
                   </article>
             </p>
-                <aside className={styles.details}>
-                  Time: 2-8 weeks
-                  Cost: £3k - £12k
+                <aside className={styles.detailContainer}>
+                  <p className={styles.details}>Time: 2-8 weeks</p>
+                  <p className={styles.details}>Cost: £3k - £12k</p>
                 </aside>
       </div>
 
@@ -60,10 +60,10 @@ export default function Services() {
                         Ongoing support and maintenance of your app can be arranged according to your requirements.
                   </article>
             </p>
-                  <aside className={styles.details}>
-                        Time: 2-12 weeks
-                        Cost: £3k - £20k
-                  </aside>
+                  <aside className={styles.detailContainer}>
+                  <p className={styles.details}>Time: 2-12 weeks</p>
+                  <p className={styles.details}>Cost: £3k - £20k</p>
+                </aside>
       </div>
         <img src="/images/green-circle.svg" alt="circle" className={styles.circle}/>
         </div>
