@@ -14,7 +14,7 @@ export default function DesktopView({ src, alt }) {
       <Image
         src={src}
         width={672}
-        height={312}
+        height={320}
         layout="responsive"
         alt={alt}
       />
