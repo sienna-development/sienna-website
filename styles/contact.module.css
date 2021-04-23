@@ -73,3 +73,12 @@
     margin-left: 0.5rem;
   }
 }
+
+@media only screen and (min-width: 300px) {
+  .images {
+    height: 8rem;
+  }
+  .jcImg {
+    margin-left: 2rem;
+  } 
+}
