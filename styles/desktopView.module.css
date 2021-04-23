@@ -6,3 +6,10 @@
   justify-content: center;
   box-shadow: 5px 12px 10px #D2D2D2;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .desktopContainer {
+    width: 80vw;
+  }
+}
