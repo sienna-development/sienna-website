@@ -24,9 +24,9 @@
     font-size: 14px;
     line-height: 5px;
 }
-.outputs {
-    margin-top: 0.5rem;
-}
+/* .outputs {
+    margin-top: 0.3rem;
+} */
 
 .circle {
     position: fixed;
