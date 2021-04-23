@@ -15,3 +15,15 @@
     width: 30vw;
     position: relative;
 }
+
+@media only screen and (max-width: 600px) {
+    .imageContainer {
+      width: 80vw;
+    }
+    .row {
+        width: 80vw;
+    }
+    .cell {
+            width: 40vw;
+    }
+  }

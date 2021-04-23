@@ -1,8 +1,8 @@
 .projectContainer {
-margin: 10vw 5vw;
-display:flex;
-justify-content: center;
-align-items: flex-start;
+    margin: 10vw 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .imageColumn {
@@ -18,15 +18,17 @@ align-items: flex-start;
 
 @media only screen and (max-width: 600px) {
     .projectContainer {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
     .textColumn {
         width: 90vw;
-        justify-content: justify;
-        padding: 0;
+        padding: .5rem 0 0 0 ;
+        text-align: justify;
+       
     }
     .imageColumn {
         width: 80vw;
+        padding: 5rem 0 0 0;
     }
   }
