@@ -16,16 +16,16 @@ export default function MobileNavModal({ toggleMenuModal, menuModalVisible }) {
       </div>
       <div className={styles.modalBody}>
         <HeaderLink href="/">
-          <a style={{ color: changeColour(), fontSize: "3rem" }}>Home</a>
+          <a style={{ color: changeColour(), fontSize: "3rem", marginBottom: "3rem"  }}>Home</a>
         </HeaderLink>
         <HeaderLink href="/projects">
-          <a style={{ color: changeColour(), fontSize: "3rem" }}>Projects</a>
+          <a style={{ color: changeColour(), fontSize: "3rem", marginBottom: "3rem"  }}>Projects</a>
         </HeaderLink>
         <HeaderLink href="/services">
-          <a style={{ color: changeColour(), fontSize: "3rem" }}>Services</a>
+          <a style={{ color: changeColour(), fontSize: "3rem",  marginBottom: "3rem" }}>Services</a>
         </HeaderLink>
         <HeaderLink href="/contact">
-          <a style={{ color: changeColour(), fontSize: "3rem" }}>Contact</a>
+          <a style={{ color: changeColour(), fontSize: "3rem", marginBottom: "3rem"  }}>Contact</a>
         </HeaderLink>
       </div>
     </nav>

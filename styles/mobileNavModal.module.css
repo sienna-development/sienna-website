@@ -27,8 +27,9 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  /* justify-content: space-around;
+  align-items: center; */
+  margin: 0 0 0 2rem;
 }
 
 .leaveModalIcon {
