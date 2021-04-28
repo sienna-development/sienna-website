@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 1140px) {
   .info {
-    left: 1rem;
+    left: 0.2rem;
     flex-direction: column;
     top: 5rem;
   }
@@ -64,10 +64,10 @@
     display: flex;
     flex-direction: row;
     margin: 0;
-    height: 10rem;
+    height: 15rem;
   }
   .jcImg {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   } 
   .email, .who {
     margin-left: 0.5rem;
@@ -76,9 +76,9 @@
 
 @media only screen and (min-width: 300px) {
   .images {
-    height: 8rem;
+    height: 10rem;
   }
   .jcImg {
-    margin-left: 2rem;
+    margin-left: 0.2rem;
   } 
 }
