@@ -12,13 +12,13 @@ export default function Contact() {
             </div>
 
             <div className={styles.email}>
-              <h2 className={styles.contactTitle}>Contact Us  </h2>
+              <h2 className={styles.contactTitle}>Contact Us</h2>
               <p className={styles.contactDeets}>info@sienna.dev</p>
             </div>
 
             <div className={styles.images}>
-              <img src="/images/bs-profile.svg" />
-              <img src="/images/jc-profile.svg" className={styles.jcImg}/>
+              <img src="/images/bs-profile.png" />
+              <img src="/images/jc-profile.png" className={styles.jcImg}/>
             </div>
         </div>
         <img src="/images/waves.svg" className={styles.waves}/>

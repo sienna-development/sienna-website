@@ -1,10 +1,10 @@
 .content {
     margin: 6rem 8rem;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .introText {
-    width: 70vw;
+    width: 65vw;
 }
 
 .bodyContainer {
