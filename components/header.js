@@ -1,29 +1,8 @@
 import styles from "../styles/header.module.css";
 import HeaderLink from "../components/headerLink";
-import React from "react";
 import MobileNav from "./mobileNav";
 
-export default function Header({ transparent }) {
-  const [isDesktop, setDesktop] = React.useState(false);
-
-  React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      setDesktop(window.innerWidth > 1000);
-    }
-    // eslint-disable-next-line
-  }, []);
-
-  const updateMedia = () => {
-    if (typeof window !== "undefined") {
-      setDesktop(window.innerWidth > 1000);
-    }
-  };
-
-  React.useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
-  });
-
+export default function Header({ isDesktop, transparent }) {
   return (
     <header
       className={transparent ? styles.headerTransparent : styles.headerOpaque}

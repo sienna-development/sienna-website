@@ -1,67 +1,67 @@
 .content {
-    margin: 6rem 8rem;
-    position: fixed;
+  margin: 6rem 8rem;
+  /* position: fixed; */
 }
 
 .introText {
-    width: 70vw;
+  width: 65vw;
 }
 
 .bodyContainer {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .bodyText {
-    width: 50vw;
+  width: 50vw;
 }
 
 .detailContainer {
-    margin-left: 4.5rem;
+  margin-left: 4.5rem;
 }
 
 .details {
-    font-size: 14px;
-    line-height: 5px;
+  font-size: 14px;
+  line-height: 5px;
 }
 /* .outputs {
     margin-top: 0.3rem;
 } */
 
 .circle {
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
 }
 
 @media only screen and (max-width: 1000px) {
-.content {
+  .content {
     margin: 7rem 1rem;
     position: unset;
-}
-.introText {
+  }
+  .introText {
     width: 90vw;
     text-align: justify;
     margin-bottom: 5rem;
     font-size: 16px;
-}
+  }
 
-.bodyText {
+  .bodyText {
     width: 90vw;
     text-align: justify;
     font-size: 16px;
-}
-.detailContainer {
+  }
+  .detailContainer {
     margin-left: 0;
     margin-bottom: 1rem;
-}
-.details {
+  }
+  .details {
     font-size: 18px;
-}
-.bodyContainer {
+  }
+  .bodyContainer {
     flex-direction: column;
-}
-.circle {
- opacity: 70%;
-}
+  }
+  .circle {
+    opacity: 70%;
+  }
 }

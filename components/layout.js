@@ -1,8 +1,29 @@
+import React from "react"
 import Head from "next/head";
 import Header from "./header";
 
 export default function Layout({ children, page }) {
   const opaqueHeadersPages = ["Projects", "Services"];
+  const [isDesktop, setDesktop] = React.useState(false);
+
+  React.useEffect(() => {
+    if (typeof window !== "undefined") {
+      setDesktop(window.innerWidth > 1000);
+    }
+    // eslint-disable-next-line
+  }, []);
+
+  const updateMedia = () => {
+    if (typeof window !== "undefined") {
+      setDesktop(window.innerWidth > 1000);
+    }
+  };
+
+  React.useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   const needsTransparentHeader = !opaqueHeadersPages.includes(page)
     ? true
     : false;
@@ -24,7 +45,7 @@ export default function Layout({ children, page }) {
           rel="stylesheet"
         />
       </Head>
-      <Header transparent={needsTransparentHeader} />
+      <Header transparent={needsTransparentHeader} isDesktop={isDesktop} />
       <main>{children}</main>
     </>
   );

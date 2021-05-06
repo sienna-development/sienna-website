@@ -9,7 +9,6 @@ export default function Projects() {
   return (
     <Layout page={"Projects"}>
       <NavbarJags />
-      <div  className={styles.projPage}>
       <section className={styles.projectContainer}>
         <div className={styles.imageColumn}>
           <FourSquareImages
@@ -52,14 +51,12 @@ export default function Projects() {
         <div className={styles.textColumn}>
           <h2>Discovery Learning Programme</h2>
           <p>
-            A discovery programme with 9 charity groups to 
-            train staff in digital service design and prepare for funding applications. 
-            Design sprint workshop facilitation over six weeks, 
-            with tailored coaching calls and product management documentation.
+            A discovery programme with 9 charity groups to train staff in
+            digital service design and prepare for funding applications. Design
+            sprint workshop facilitation over six weeks, with tailored coaching
+            calls and product management documentation.
           </p>
-          <p>
-            Made with Miro, GitHub and Google docs.
-          </p>
+          <p>Made with Miro, GitHub and Google docs.</p>
           <p>This project was part of a CAST/Catalyst programme.</p>
         </div>
       </section>
@@ -77,7 +74,9 @@ export default function Projects() {
             ‘cybersafety’ against a series of topics.
           </p>
           <p>Made with Gatsby, Firebase and Netlify CMS.</p>
-          <p>This project was built for the Irish organisation, CyberSafeKids.</p>
+          <p>
+            This project was built for the Irish organisation, CyberSafeKids.
+          </p>
         </div>
       </section>
       <section className={styles.projectContainer}>
@@ -94,7 +93,9 @@ export default function Projects() {
             at home.{" "}
           </p>
           <p>Made with ReactJS</p>
-          <p>This project was built for the Irish organisation, CyberSafeKids.</p>
+          <p>
+            This project was built for the Irish organisation, CyberSafeKids.
+          </p>
         </div>
       </section>
       <section className={styles.projectContainer}>
@@ -120,43 +121,40 @@ export default function Projects() {
         </div>
       </section>
       <section className={styles.projectContainer}>
-        <div className={styles.imageColumn}>   
-        <div className={styles.mob}></div>    
-        <MobileView
-            src={"/images/mbl-dashboard.png"}
-            alt={"MBL Service Recomendation App"}
-          />
-          <div className={styles.mob}>
-           <MobileView
+        <div className={styles.imageColumn}>
+            <MobileView
+              src={"/images/mbl-dashboard.png"}
+              alt={"MBL Service Recomendation App"}
+            />
+          <MobileView
             src={"/images/mbl-youthvote.png"}
             alt={"MBL Youth Vote App"}
-          />    
-          </div>
-          <div className={styles.mob}>
-             <MobileView
+          />
+          <MobileView
             src={"/images/mbl-youthcoin.png"}
             alt={"MBL Youth Coin App"}
           />
-          </div>
         </div>
         <div className={styles.textColumn}>
-          <h2>My Best Life</h2>
+          <h2>My Best Life (Phase 2)</h2>
           <p>
-            A range of MVP apps prototyped in collaboration with three youth charities
-            as part a definition programme with New Philanthropy Capital. 
+            A range of apps prototyped in collaboration with three youth
+            charities as part a definition programme with New Philanthropy
+            Capital.
           </p>
           <p>
-            The 3 apps provide different methods of engagement with young people.
-            We conducted usability testing with various groups of yp to inform the next phase of the programme.
-            </p>
-            <p>
-            Youth Coin and Youth Vote focus on involving yp in the decision making processes. 
-            The service recommender app is a space that personalises the search for services available.
+            The 3 apps provide different methods of engagement with young
+            people. We conducted usability testing with various groups of yp to
+            inform the next phase of the programme.
+          </p>
+          <p>
+            Youth Coin and Youth Vote focus on involving yp in decision making
+            processes. The service recommender app is a space that personalises
+            the search for available youth services.
           </p>
           <p>Made with Miro and Figma.</p>
         </div>
       </section>
-      </div>
     </Layout>
   );
 }

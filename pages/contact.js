@@ -12,7 +12,7 @@ export default function Contact() {
             </div>
 
             <div className={styles.email}>
-              <h2 className={styles.contactTitle}>Contact Us  </h2>
+              <h2 className={styles.contactTitle}>Contact Us</h2>
               <p className={styles.contactDeets}>info@sienna.dev</p>
             </div>
 
