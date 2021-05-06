@@ -1,40 +1,47 @@
 .projectContainer {
-    margin: 10vw 5vw;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  margin: 10vw 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .imageColumn {
-    width: 60vw;
-    display: flex;
-    justify-content: flex-end;
+  width: 60vw;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .textColumn {
-    width: 30vw;
-    padding: 0 0 0 20px;
+  width: 30vw;
+  padding: 0 0 0 20px;
 }
 
 .mob {
-    display: flex;
+  display: flex;
 }
 
 @media only screen and (max-width: 900px) {
-    .projPage {
-        margin: 8rem;
-    }
-    .projectContainer {
-        flex-direction: column;
-        align-items: center;
-    }
-    .textColumn {
-        width: 90vw;
-        padding: .5rem 0 0 0 ;
-        text-align: justify; 
-    }
-    .imageColumn {
-        width: 90vw;
-        justify-content: center;
-    }
+  .projectContainer {
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0;
   }
+
+  .projectContainer:nth-child(2) {
+    margin: 8rem 0 4rem 0; 
+  }
+
+  .projectContainer:last-child {
+    margin: 4rem 0 2rem 0;
+  }
+
+  .textColumn {
+    width: 90vw;
+    padding: 0.5rem 0 0 0;
+  }
+
+  .imageColumn {
+    width: 90vw;
+    justify-content: center;
+  }
+}
