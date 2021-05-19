@@ -1,32 +1,17 @@
 .content {
-  margin: 6rem 8rem;
+  margin: 8rem;
   /* position: fixed; */
 }
 
 .introText {
-  width: 65vw;
-}
-
-.bodyContainer {
-  display: flex;
-  flex-direction: row;
+  width: 70vw;
+  margin-bottom: 2rem;
 }
 
 .bodyText {
-  width: 50vw;
+  width: 60vw;
+  text-align: justify;
 }
-
-.detailContainer {
-  margin-left: 4.5rem;
-}
-
-.details {
-  font-size: 14px;
-  line-height: 5px;
-}
-/* .outputs {
-    margin-top: 0.3rem;
-} */
 
 .circle {
   position: fixed;
@@ -51,13 +36,7 @@
     text-align: justify;
     font-size: 16px;
   }
-  .detailContainer {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
-  .details {
-    font-size: 18px;
-  }
+
   .bodyContainer {
     flex-direction: column;
   }

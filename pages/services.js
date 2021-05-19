@@ -15,7 +15,6 @@ export default function Services() {
         </p>
 
         <h2 className={styles.serviceTitle}>Discover and Define</h2>
-        <div className={styles.bodyContainer}>
           <div className={styles.bodyText}>
             <p>
               For those who think a tech solution may be needed but aren’t sure
@@ -29,14 +28,7 @@ export default function Services() {
               validated by prototype.
             </p>
           </div>
-          <aside className={styles.detailContainer}>
-            <p className={styles.details}>Time: 2-4 weeks</p>
-            <p className={styles.details}>Cost: £3k - £6k</p>
-          </aside>
-        </div>
-
         <h2 className={styles.serviceTitle}>Design and Validate</h2>
-        <div className={styles.bodyContainer}>
           <div className={styles.bodyText}>
             <p>
               When you know what you need to build, you want to do it right.
@@ -52,14 +44,8 @@ export default function Services() {
               stories that can be taken through to development and delivery.
             </p>
           </div>
-          <aside className={styles.detailContainer}>
-            <p className={styles.details}>Time: 2-8 weeks</p>
-            <p className={styles.details}>Cost: £3k - £12k</p>
-          </aside>
-        </div>
 
         <h2 className={styles.serviceTitle}>Develop and Support</h2>
-        <div className={styles.bodyContainer}>
           <div className={styles.bodyText}>
             <p>
               Working with your team we'll develop an interactive prototype, MVP
@@ -74,11 +60,6 @@ export default function Services() {
               arranged according to your requirements.
             </p>
           </div>
-          <aside className={styles.detailContainer}>
-            <p className={styles.details}>Time: 2-12 weeks</p>
-            <p className={styles.details}>Cost: £3k - £20k</p>
-          </aside>
-        </div>
         <img
           src="/images/green-circle.svg"
           alt="circle"
